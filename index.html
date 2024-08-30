@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Na escola Rui Bloem, foi encontrado um livro de receita, onde dizia que um padeiro, criou um doce chamado Jambo. Que  ninguém háviam provado antes, para conseguir encontrar é preciso seguir as pistas.</p>
+            <button class="btn-proximo" data-proximo="1">Desistir e voltar para casa</button>
+            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" data-proximo="4">Investigar as igrejas antigas</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Pernambuco, você visita a histórica cidade de Olinda. No livro, uma das pistas indica que para localizar o doce perdido, você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">No pará</button>
+            <button class="btn-proximo" data-proximo="6">e agora</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No pico docristo redentor, você encontra uma antiga inscrição apontando que a próxima pista está localizada no Pará</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima pista está no Pará.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Chegando no pará, você encontra uma cachoeira onde dentro de uma rocha está localizada o livro de receitas, e lá esta escrito a receita do dose misterioso.</p>
+            
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
